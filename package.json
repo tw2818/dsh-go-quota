@@ -1,0 +1,46 @@
+{
+  "name": "dsh-go-minimax-quota-6",
+  "version": "0.13.0",
+  "private": true,
+  "type": "module",
+  "main": "lib/index.js",
+  "dsh": {
+    "bundle": {
+      "patch": "./cordis.patch.yml"
+    }
+  },
+  "engines": {
+    "dsh": ">=0.2.1-rc.2 <0.3.0-0"
+  },
+  "dshGo": {
+    "v": 1,
+    "title": {
+      "zh": "额度",
+      "en": "Quota"
+    },
+    "icon": "coin",
+    "contributes": {
+      "composer.strip": [
+        {
+          "id": "quota-strip",
+          "icon": "coin",
+          "panel": "quota"
+        }
+      ],
+      "panels": [
+        {
+          "id": "quota",
+          "title": {
+            "zh": "额度",
+            "en": "Quota"
+          },
+          "icon": "coin",
+          "placement": [
+            "session.tab",
+            "chat.panel"
+          ]
+        }
+      ]
+    }
+  }
+}
