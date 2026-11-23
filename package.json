@@ -1,6 +1,6 @@
 {
-  "name": "dsh-go-minimax-quota-6",
-  "version": "0.13.0",
+  "name": "dsh-go-quota",
+  "version": "0.14.0",
   "private": true,
   "type": "module",
   "main": "lib/index.js",
