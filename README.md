@@ -24,7 +24,6 @@ export default {
   short: (en) => 'MP',                                  // 状态条里的短名
   title: (en) => (en ? 'My quota' : '我的额度'),          // 卡片标题
   section: (en) => (en ? 'My · details' : '我的 · 明细'), // 明细区标题
-  consoleUrl: () => 'https://example.com/console',       // 可选：给面板加一个「控制台」按钮
   fetch: async (ctx) => { /* 拉原始数据 */ },
   build: (raw, en) => ({ /* 变成面板数据 */ }),
   error: (err, en) => ({ /* 出错时的样子 */ }),
